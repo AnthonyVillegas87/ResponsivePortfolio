@@ -85,3 +85,8 @@ body {
     display: inline-block;
     text-align: center;
 }
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
