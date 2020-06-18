@@ -90,3 +90,26 @@ body {
     left: 0;
     top: 0;
 }
+.chart .percent {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+    content: "%";
+}
+
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+}
