@@ -60,3 +60,28 @@ body {
     font-size: 25px;
 }
 
+.section {
+    padding: 100px 0;
+}
+
+.aboutImage {
+    max-width: 100%;
+}
+
+.skillsSection {
+    background-color:#e74c3c;
+    color: #fff;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
