@@ -49,7 +49,7 @@ $(document).ready(function() {
                 trackColor: false,
                 scaleColor: false,
                 lineWidth: 4,
-                size: 150,
+                size: 152,
                 onStep: function(from, to, percent) {
                     $(this.el).find(".percent").text(Math.round(percent));
                 }

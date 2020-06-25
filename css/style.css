@@ -110,16 +110,16 @@ body {
     position: relative;
     padding: 50px 15px 35px;
     text-align: center;
-    border: 2px solid #444;
+    border: 2px solid #fff;
     border-top: none;
 }
 .squareInnerContainer:before, 
  .squareInnerContainer:after {
      content: "";
-     position:absolute;
+     position: absolute;
      top: 0px;
      width: 30px;
-     border-bottom: 2px solid #444;
+     border-bottom: 2px solid #fff;
  }
 
  .squareInnerContainer:before {
@@ -133,11 +133,22 @@ body {
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #3c45e7;
+    color: #000;
 }
 
 .squareContent h3 {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
     margin: 0;
+}
+
+.squareIcon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 50px;
+    font-size: 35px;
+    margin-left: -20%;
+    color: #fff;
 }
