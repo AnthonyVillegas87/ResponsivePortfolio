@@ -110,7 +110,7 @@ body {
     position: relative;
     padding: 50px 15px 35px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-top: none;
 }
 .squareInnerContainer:before, 
@@ -119,7 +119,7 @@ body {
      position: absolute;
      top: 0px;
      width: 30px;
-     border-bottom: 2px solid #fff;
+     border-bottom: 2px solid #000;
  }
 
  .squareInnerContainer:before {
@@ -150,7 +150,7 @@ body {
     height: 50px;
     font-size: 35px;
     margin-left: -20%;
-    color: #fff;
+    color: #000;
 }
 
 .squareIcon2 {
@@ -161,7 +161,7 @@ body {
     height: 50px;
     font-size: 35px;
     margin-left: -20%;
-    color: #fff;
+    color: #000;
 }
 
 .squareIcon3 {
@@ -172,7 +172,7 @@ body {
     height: 50px;
     font-size: 35px;
     margin-left: -20%;
-    color: #fff;
+    color: #000;
 }
 
 .squareIcon4 {
@@ -183,5 +183,5 @@ body {
     height: 50px;
     font-size: 35px;
     margin-left: -20%;
-    color: #fff;
+    color: #000;
 }
