@@ -367,3 +367,8 @@ body {
    background: url(../img/icons/menu-vertical.png); 
    background-size: 100%;
 }
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
