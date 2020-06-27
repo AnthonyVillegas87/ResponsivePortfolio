@@ -334,5 +334,12 @@ body {
     padding: 0;
 }
 
+.copyrightSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
 
-
+.coprightSection p {
+    margin: 0;
+}
