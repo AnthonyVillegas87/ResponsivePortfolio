@@ -362,3 +362,8 @@ body {
 .navbar-brand:hover {
     color: #fff;
 }
+
+.navbar-toggler-icon {
+   background: url(../img/icons/menu-vertical.png); 
+   background-size: 100%;
+}
