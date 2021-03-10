@@ -23,23 +23,22 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
+        rtl: true,
         loop:true,
-        items: 4,
+        margin: 6,
+        nav: true,
         responsive:{
             0:{
-                items:1
+                skills:1
             },
-            480:{
-                items:2
+            600:{
+                skills:3
             },
-            768:{
-                items:3
-            },
-            938:{
-                items:4
+            1000:{
+                skills:5
             }
         }
-    })
+    });
 
     
     

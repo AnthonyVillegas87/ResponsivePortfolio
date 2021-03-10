@@ -102,6 +102,31 @@ body {
     content: "%";
 }
 
+.owl-nav {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.button:owl-prev {
+        color: #e74c3c;
+        background: inherit;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 300ms ease-out;
+}
+
+.button:owl-next {
+        color: #FFF;
+        background: inherit;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 300ms ease-out;      
+}
+
 .squareItem {
     margin-top: 30px;
     position: relative;
