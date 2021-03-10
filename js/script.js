@@ -23,19 +23,21 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        rtl: true,
         loop:true,
-        margin: 6,
+        items: 5,
         nav: true,
         responsive:{
             0:{
                 skills:1
             },
-            600:{
+            480:{
                 skills:3
             },
+            768:{
+                skills:7
+            },
             1000:{
-                skills:5
+                skills:10
             }
         }
     });

@@ -109,8 +109,8 @@ body {
 
 
 
-.button:owl-prev {
-        color: #e74c3c;
+.owl-prev {
+        color: #FFF;
         background: inherit;
         display: inline-block;
         cursor: pointer;
@@ -118,7 +118,7 @@ body {
         transition: background-color 300ms ease-out;
 }
 
-.button:owl-next {
+.owl-next {
         color: #FFF;
         background: inherit;
         display: inline-block;
