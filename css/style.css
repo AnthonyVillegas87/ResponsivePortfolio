@@ -113,12 +113,12 @@ body {
 
 .owl-prev span {
     font-size: 32px;
-    margin-right: 16px;
+    margin-right: 50px;
 }
 
 .owl-next span {
     font-size: 32px;
-    margin-left: 16px;
+    margin-left: 50px;
 }
 
 
